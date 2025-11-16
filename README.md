@@ -1,27 +1,80 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# US Bikeshare Data Analysis
 
+A Python program that allows users to explore and analyze bikeshare data from three major US cities: Chicago, New York City, and Washington. The program provides statistics on travel times, popular stations, trip durations, and user demographics. It also allows users to view raw trip data in chunks. 
 
-# Project Title
+---
 
-Describe what your project is about and what it does
+## Features
 
-## Information about how to use your project
+- Select city, month, and day to filter data
+- Display statistics on:
+  - Most frequent times of travel
+  - Most popular start and end stations, including station combinations
+  - Total and average trip duration
+  - User demographics: user types, gender, and birth years (where available)
+- Option to view raw trip data 5 rows at a time
+- Easy-to-use menu interface with input validation
+- Option to restart analysis or exit at any time
 
-This could include:
+---
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+## Libraries Used
 
-## Contribution guidelines
+- Python 
+- Pandas
+- NumPy
+- Calendar
+- Time
+- Sys
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+---
 
-## Credits
+## Before Usage
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+1. Ensure Python 3.x is installed on your system  
+2. Install required libraries: Pandas and NumPy  
+3. Download the CSV data files for each city and place them in the same directory as the program:
+   - `chicago.csv`
+   - `new_york_city.csv`
+   - `washington.csv`
 
-## Date created
+---
 
-Include the date you created this project and README file.
+## Usage
+
+1. Run the program  
+2. Follow the on-screen prompts to select:
+   - City
+   - Month (or "all")
+   - Day of the week (or "all")  
+3. View the calculated statistics for your selection  
+4. Optionally, view 5 rows of raw data at a time  
+5. Choose to restart analysis or exit the program when finished
+
+---
+
+## Notes
+
+- Gender and birth year data are not available for Washington  
+- Input validation ensures only valid options are selected  
+- The program calculates the time taken to display statistics for performance insights
+
+---
+
+## Example Output
+
+Welcome! Let's start exploring some US bikeshare data!  
+Choose a city: Chicago  
+Choose a month: March  
+Choose a day: Friday  
+
+The most common month in Chicago is March.  
+The most common day of the week is Friday.  
+The most common start hour for your selection is 17 o'clock.  
+
+---
+
+##  Contact Information
+For any questions or recommendations:  
+- **Bashar Bayatna**, Mechatronics Engineer | Junior Data Scientist  
+- Email: [Basharbayatna11@gmail.com](mailto:Basharbayatna11@gmail.com)
